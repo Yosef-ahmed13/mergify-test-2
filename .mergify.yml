@@ -1,0 +1,9 @@
+merge_queue:
+  max_parallel_checks: true
+  max_checks_retries: "5"
+  status_comments: 'false'
+  branch_protection_injection_mode: none
+
+queue_rules:
+  - name: default
+    conditions: []
